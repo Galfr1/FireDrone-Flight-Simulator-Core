@@ -3,7 +3,7 @@ This software is our obstacle detection algorithm.
 To download the software with GUI please download the exe file (for Windows only).
 
 For using the algorithe only (without the GUI) we made the "core.py" file.
-This clean file is very clear and have comments to explain the diffrent parts of the code.
+This file is very clear and have comments to explain the diffrent parts of the code.
 
 To run the core.py file, install python 3 if you don't have it.
 Then open the terminal and navigate to the folder that you saved the file using:
