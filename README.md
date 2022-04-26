@@ -17,10 +17,9 @@ python3 core.py
 You can also edit the file and run it using your favorite code editor.
 
 -----------------------------------------------------------------------------
-*version 7.3.1 is coming in just few hours!*
+*version 7.3.1 changelog*
 
- - version 7.3.1 will have a random obsticle generation feature
- - version 7.3.1 will have an improved GUI
- - version 7.3.1 will fix the credits window title bug (in windows 10 / 11)
-
-(this version will have no algorithem improvements)
+ - added new generation wizard (click on the "random generation" button at the bottom of the main window)
+ - fixed the bug of the title on the credits window
+ - changed the scaning distance of the back and front obsticles from 150 to 10
+ - minor bug fixes
