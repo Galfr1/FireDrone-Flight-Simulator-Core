@@ -21,6 +21,6 @@ You can also edit the file and run it using your favorite code editor.
 
  - version 7.3.1 will have a random obsticle generation feature
  - version 7.3.1 will have an improved GUI
- - version 7.3.1 will fix the credits window title bug
+ - version 7.3.1 will fix the credits window title bug (in windows 10 / 11)
 
 (this version will have no algorithem improvements)
