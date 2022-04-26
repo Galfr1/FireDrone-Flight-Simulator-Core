@@ -12,3 +12,12 @@ Then run the file with:
 python3 core.py
 
 You can also edit the file and run it using your favorite code editor.
+
+-----------------------------------------------------------------------------
+*version 7.3.1 is coming in just few hours!*
+
+ - version 7.3.1 will have a random obsticle generation feature
+ - version 7.3.1 will have an improved GUI
+ - version 7.3.1 will fix the credits window title bug
+
+(this version will have no algorithem improvements)
