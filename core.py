@@ -1,4 +1,4 @@
-#FireDrone Navigation Simulator - Version 7.3 Beta
+#FireDrone Navigation Simulator - Version 7.3.1 Beta
 #Made by Prof. Yael Edan, Mr. Moshe Bardea, Gal Fried
 #Algorithems inspierd from Eyal Elazari and Ofir Nagauker's simulator
 
@@ -37,12 +37,12 @@ while True:
     rightObsticle = False
     backObsticle = False
 
-    #Scaning is there an obsticle infront of the drone 150 units away
+    #Scaning is there an obsticle infront of the drone 10 units away
     i = 0
     while i < len(obsticles):
         print("scan")
         o = obsticles[i]
-        if (o[0] == x) and (y + 150 > o[1] > y) and (o[2] == z):
+        if (o[0] == x) and (y + 10 > o[1] > y) and (o[2] == z):
             frontObsticle = True
         
         i = i + 1
@@ -69,13 +69,13 @@ while True:
         
         i = i + 1
     
-    #Scaning is there an obsticle back to the drone 150 units away
+    #Scaning is there an obsticle back to the drone 10 units away
     backObsticle = False
     i = 0
     while i < len(obsticles):
         print("scan - b")
         o = obsticles[i]
-        if (o[0] == x) and (y - 150 < o[1] < y) and (o[2] == z):
+        if (o[0] == x) and (y - 10 < o[1] < y) and (o[2] == z):
             backObsticle = True
         
         i = i + 1
